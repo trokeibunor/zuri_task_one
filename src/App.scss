@@ -1,0 +1,80 @@
+.App{
+    background-color: #fff;
+    color: #101828;
+    .container{
+        width: 70%;
+        margin: 2rem auto 0px;
+        .avater_section{
+            width: 60%;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            .user{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                #profile__img{
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50px;
+                }
+                #username{
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+            #share__link{
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                padding: 4px;
+                border: 1px dotted #D0D5DD;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+        .link_list{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            .link_out{
+                background-color: #EAECF0;
+                width: 100%;
+                padding: 12px 0px;
+                margin: 8px;
+                border-radius: 4px;
+                text-align: center;
+                text-decoration: none;
+                color: #101828;
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+        .socialIcons{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0px;
+            a{
+                margin: 0 4px;
+            }
+        }
+    }
+    footer{
+        width: 90%;
+        margin: 0 auto;
+        padding: 8px 0px;
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: 12px;
+            color: #667085;
+        }
+    }
+}
