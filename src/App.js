@@ -1,6 +1,7 @@
 import './App.scss';
 import share from './images/avater_share.svg';
 import avater from './images/avater_img.png';
+import menu from './images/menu_link.svg';
 // social Icons
 import slack from './images/slack.svg';
 import git from './images/git.svg';
@@ -15,23 +16,25 @@ function App() {
         <div className="avater_section">
           <div className='user'>
             <img id="profile__img" src={avater} alt="avater"/>
-            <p id="username">Annette Black</p>
+            <p id="twitter">tr_hazard</p>
+            <p id="slack">Okeibunor Emmanuel</p>
           </div>
           <img id="share__link" src={share} alt="shareLink"/>
+          <img id="menu__img" src={menu} alt="menuLink"/>
         </div>
         <div className="link_list">
-          <a href='https://' className='link_out'>Twitter Link</a>
-          <a href='https://' className='link_out'>Zuri Team</a>
-          <a href='https://' className='link_out'>Zuri Books</a>
-          <a href='https://' className='link_out'>Python Books</a>
-          <a href='https://' className='link_out'>Background Check for Coders</a>
-          <a href='https://' className='link_out'>Design Books</a>
+          <a href='https://twitter.com/tr_hazard' className='link_out'>Twitter Link</a>
+          <a href='https://training.zuri.team/' className='link_out'>Zuri Team</a>
+          <a href='http://books.zuri.team' className='link_out'>Zuri Books</a>
+          <a href='https://books.zuri.team/python-for-beginners?ref_id=okeibunoremma' className='link_out'>Python Books</a>
+          <a href='https://background.zuri.team' className='link_out'>Background Check for Coders</a>
+          <a href='https://books.zuri.team/design-rules' className='link_out'>Design Books</a>
         </div>
         <div className="socialIcons">
           <a href='https://' className='socialIcon'>
             <img src={slack} alt="slack_icon"/>
           </a>
-          <a href='https://' className='socialIcon'>
+          <a href='https://github.com/trokeibunor' className='socialIcon'>
             <img src={git} alt="git_icon"/>
           </a>
         </div>
