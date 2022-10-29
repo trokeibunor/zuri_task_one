@@ -24,14 +24,14 @@ function App() {
         </div>
         <div className="link_list">
           <a href='https://twitter.com/tr_hazard' className='link_out'>Twitter Link</a>
-          <a href='https://training.zuri.team/' className='link_out'>Zuri Team</a>
-          <a href='http://books.zuri.team' className='link_out'>Zuri Books</a>
-          <a href='https://books.zuri.team/python-for-beginners?ref_id=okeibunoremma' className='link_out'>Python Books</a>
-          <a href='https://background.zuri.team' className='link_out'>Background Check for Coders</a>
-          <a href='https://books.zuri.team/design-rules' className='link_out'>Design Books</a>
+          <a href='https://training.zuri.team/' className='link_out' id='btn__zuri'>Zuri Team</a>
+          <a href='http://books.zuri.team' className='link_out' id='books'>Zuri Books</a>
+          <a href='https://books.zuri.team/python-for-beginners?ref_id=okeibunoremma' className='link_out' id='book__python'>Python Books</a>
+          <a href='https://background.zuri.team' className='link_out' id='pitch'>Background Check for Coders</a>
+          <a href='https://books.zuri.team/design-rules' className='link_out' id='book__design'>Design Books</a>
         </div>
         <div className="socialIcons">
-          <a href='https://' className='socialIcon'>
+          <a href='https://hng9.slack.com/' className='socialIcon'>
             <img src={slack} alt="slack_icon"/>
           </a>
           <a href='https://github.com/trokeibunor' className='socialIcon'>
