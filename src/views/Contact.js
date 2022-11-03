@@ -1,5 +1,7 @@
 // Contact page style
 import '../style/contact.scss'
+// footer component 
+import Footer from '../components/Footer';
 function Contact(){
     return(
         <div className='contactCon'>
@@ -41,6 +43,7 @@ function Contact(){
                     <input type='submit' id='btn__submit' value='Send Message'/>
                 </form>
             </section>
+            <Footer/>
         </div>
     )
 }
