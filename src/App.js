@@ -28,6 +28,7 @@ function App() {
           <a href='https://books.zuri.team/python-for-beginners?ref_id=okeibunoremma' className='link_out' id='book__python'>Python Books</a>
           <a href='https://background.zuri.team' className='link_out' id='pitch'>Background Check for Coders</a>
           <a href='https://books.zuri.team/design-rules' className='link_out' id='book__design'>Design Books</a>
+          <a href={`contact`} className='link_out' id='contact_btn'>Contact</a>
         </div>
         <div className="socialIcons">
           <a href='https://hng9.slack.com/' className='socialIcon'>
